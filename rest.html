@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url('hero-image.jpg');
+      background-size: cover;
+      height: 400px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Restaurant Name</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1 class="display-4">Delicious Dishes Await You</h1>
+      <p class="lead">Savor the taste of authentic cuisine</p>
+      <a class="btn btn-primary btn-lg" href="#">Make a Reservation</a>
+    </div>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="container my-5">
+    <h2 class="text-center">Our Menu</h2>
+    <div class="row">
+      <!-- Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="menu-item1.jpg" class="card-img-top" alt="Dish 1">
+          <div class="card-body">
+            <h5 class="card-title">Dish 1</h5>
+            <p class="card-text">A delicious dish made with fresh ingredients.</p>
+            <p class="card-text">$15.99</p>
+          </div>
+        </div>
+      </div>
+      <!-- Menu Item 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="menu-item2.jpg" class="card-img-top" alt="Dish 2">
+          <div class="card-body">
+            <h5 class="card-title">Dish 2</h5>
+            <p class="card-text">A tasty option that combines flavors perfectly.</p>
+            <p class="card-text">$18.99</p>
+          </div>
+        </div>
+      </div>
+      <!-- Menu Item 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="menu-item3.jpg" class="card-img-top" alt="Dish 3">
+          <div class="card-body">
+            <h5 class="card-title">Dish 3</h5>
+            <p class="card-text">A savory meal perfect for any occasion.</p>
+            <p class="card-text">$20.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us Section -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="about-us.jpg" class="img-fluid" alt="Restaurant Image">
+      </div>
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>We are a family-owned restaurant offering a warm atmosphere and exceptional food. Our chefs use the finest ingredients to prepare every meal to perfection.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container my-5">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    <a href="#" class="text-white">Facebook</a> | <a href="#" class="text-white">Instagram</a>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
